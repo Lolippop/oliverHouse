@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+    <head>
+        <title>Rango</title>
+    </head>
+
+    <body>
+        <h1>Rango says...</h1>
+        <p>{{plist}}</p>
+        <img src="/static/image/1.jpeg" alt="Picture of Rango" />
+        <img src="{% static "image/1.jpeg" %}" alt="Pcitue of Rango" />
+        hello world! <strong>{{ boldmessage }}</strong><br />
+        <a href="/rango/about/">About</a><br />
+    </body>
+
+</html>

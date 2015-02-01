@@ -1,0 +1,7 @@
+import sqlite3
+con = sqlite3.connect("default.db")
+cur = con.cursor()
+drp_tb_sql = ".table"
+cur.execute(drp_tb_sql)
+cur.close()
+con.close()
